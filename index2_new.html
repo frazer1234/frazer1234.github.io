@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <style>
+        /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  border-radius: 5px 5px 5px 5px ;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 55px;
+  float: left;
+  width: 300px;
+  height: 200px;
+  
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card1 {
+  background-color: transparent;
+  border-radius: 5px 5px 5px 5px ;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 510px;
+  float: left;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card2 {
+  background-color: transparent;
+  border-radius: 5px 5px 5px 5px ;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 55px;
+  float: left;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:active .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card1:active .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card2:active .flip-card-inner {
+  transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+	 background-color: transparent;
+	/*background-color: rgb(255, 211, 182);*/
+    /*background-color: rgb(203, 30, 255);*/
+     text-align:center;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  /*font-family: 'Caveat', cursive;*/
+  /*box-shadow: 3px 3px 3px #888888;*/
+  border: 3px solid #f1f1f1;
+  border-radius: 25px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  
+  color: white;
+  transform: rotateY(180deg);
+}
+
+    </style>
+    <body background="bg.jpg"  style="background-repeat: no-repeat; min-height: 100%; min-width: 100%;  ">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>Smitten XD</p>
+              </div>
+              <div class="flip-card-back">
+                <img src="pawan.jpeg" alt="Avatar" style=" max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>VJ sir was our first common friend
+                    <br>(･ั﹏･ั)</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="yash.jpg" alt="Avatar" style=" max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>Me: I am taller than you.
+                	<br>
+                    Shreya: No, it's just my posture. 😌</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="ritika.jpeg" alt="Avatar" style=" max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p> Tennis khelne wapas aa jao mixed doubles partner 🥺</p>
+              </div>
+              <div class="flip-card-back">
+                <img src="hitansh.jpg" alt="Avatar" style=" max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>Serena Van Der Woodsen</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="meghana.JPG" alt="Avatar" style=" max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>Ain't no words perfect <br> enough for you.So, <br>🍓 🧀 🍰 🍨 ❤️</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="ali.jpg" alt="Avatar" style=" max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>"mei farm m nhi rhti"</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="pratyush.jpg" alt="Avatar" style="max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p> We-don't-like-Aditya-Agarwal Club</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="vrinda.jpeg" alt="Avatar" style="max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>I worked so damn hard for the ITSP! 🥺🙂</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="raaghav.JPG" alt="Avatar" style="max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="flip-card2">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <p>Chicken <br>
+                khaayegi?</p>                
+              </div>
+              <div class="flip-card-back">
+                <img src="sudhanshu.jpg" alt="Avatar" style="max-width: 100%">
+              </div>
+            </div>
+          </div>
+    </body>
+    </html>
