@@ -14,6 +14,7 @@ let playing = false;
 
 
 let songs = ["summer.mp3",
+"glimpse of us.mp3",
 "sky full of stars.mp3",
 "astronomia.mp3",
 "scientist.mp3",
